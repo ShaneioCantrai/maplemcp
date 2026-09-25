@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a reproducible MapleMCP problem
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Do not include passwords, tokens, cookies, private keys, enrollment credentials, personal data, or vulnerability details.
+  - type: input
+    id: version
+    attributes:
+      label: MapleMCP version
+      placeholder: 0.2.28-beta
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - Linux
+        - Android / mobile
+        - Browser Companion
+        - Hosted MCP / account
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Redacted logs or evidence
+      description: Remove credentials, personal data, private infrastructure details, and unrelated content.
+  - type: checkboxes
+    id: security
+    attributes:
+      label: Security check
+      options:
+        - label: This is not a vulnerability report. I will use private vulnerability reporting for security issues.
+          required: true

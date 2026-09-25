@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/ShaneioCantrai/maplemcp/security/advisories/new
+    about: Report security issues privately.
+  - name: MapleMCP website
+    url: https://maplemcp.ca
+    about: Product information and downloads.
