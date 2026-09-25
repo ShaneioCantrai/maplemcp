@@ -11,7 +11,7 @@ This repository is MapleMCP's **public documentation, community, security-report
 - Product: https://maplemcp.ca
 - Downloads: https://maplemcp.ca/downloads
 - Hosted MCP endpoint: `https://maplemcp.ca/mcp`
-- Current public beta: **0.2.28-beta**
+- Current public beta: **0.2.30-beta**
 - Default public contract: **78 MCP tools**
 
 ## What you can find here
@@ -36,7 +36,7 @@ See [Repository scope](docs/REPOSITORY_SCOPE.md).
 
 ## Current capability surface
 
-The normal 0.2.28 public contract exposes:
+The normal 0.2.30 public contract exposes:
 
 - **1** device-discovery tool
 - **34** desktop/server tools

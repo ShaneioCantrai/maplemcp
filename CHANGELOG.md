@@ -2,6 +2,21 @@
 
 MapleMCP is currently in beta.
 
+## 0.2.30-beta — 2026-09-25
+
+- hardened downloadable runtime artifacts so MapleMCP no longer ships a convenient readable implementation source tree
+- minified desktop/server runtime JavaScript after compilation
+- reduced the updater to a minified bundled entrypoint plus runtime dependencies/trust metadata
+- shipped Browser Companion 0.1.7 as a minified runtime-only package
+- rejected MapleMCP-owned TypeScript/TSX/source-map files from release runtime trees
+- rebuilt and timestamp-signed the Windows installer from the exact accepted hardened artifacts
+- independently extracted the signed installer and reverified its embedded agent/updater hashes and hardened contents
+
+## 0.2.29-beta — 2026-09-25
+
+- completed the new Windows installer lifecycle and recovery path
+- hardened fresh install, repair, upgrade, canary promotion, uninstall persistence, and failure rollback behavior
+
 ## 0.2.28-beta — 2026-09-24
 
 - shipped the resident Worker Fabric canary behind explicit gates
