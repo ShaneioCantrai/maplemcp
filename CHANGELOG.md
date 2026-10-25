@@ -2,6 +2,14 @@
 
 MapleMCP is currently in beta.
 
+## 0.2.63-beta — public catalog observed 2026-10-24
+
+- Downloads advertised separate signed release sequences for Windows Standard/Pro, Linux Standard/Pro, and Android; verify the specific sequence and signing metadata rather than relying on version text alone.
+- Installation, existing-build upgrade, and rollback acceptance remain separate from catalog publication.
+- Known Linux Pro upgrade compatibility exception: sequence 167 → 247 failed; see [installation guidance](docs/INSTALL.md). A corrected signed successor requires its own acceptance before the affected upgrade can resume.
+- For current binaries and dated release status, refer to https://maplemcp.ca/downloads.
+
+
 ## 0.2.30-beta — 2026-09-25
 
 - hardened downloadable runtime artifacts so MapleMCP no longer ships a convenient readable implementation source tree
