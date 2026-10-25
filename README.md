@@ -11,8 +11,8 @@ This repository is MapleMCP's **public documentation, community, security-report
 - Product: https://maplemcp.ca
 - Downloads: https://maplemcp.ca/downloads
 - Hosted MCP endpoint: `https://maplemcp.ca/mcp`
-- Current public beta: **0.2.30-beta**
-- Default public contract: **78 MCP tools**
+- Beta offered in the download catalog on **2026-10-24**: **0.2.63-beta**, with separate signed sequences for Windows, Linux, and Android
+- Tool availability: use current authenticated MCP discovery and effective per-device capability policy; older static tool counts are historical
 
 ## What you can find here
 
@@ -36,16 +36,9 @@ See [Repository scope](docs/REPOSITORY_SCOPE.md).
 
 ## Current capability surface
 
-The normal 0.2.30 public contract exposes:
+MapleMCP's tool catalog evolves across endpoint editions, operating systems and server releases. Capabilities include device discovery, files, diagnostics, processes, Agent Browser, Browser Companion and supported Android operations. Advanced and resident-worker functions are gated by account and device policy.
 
-- **1** device-discovery tool
-- **34** desktop/server tools
-- **31** browser / ChatGPT-browser tools
-- **12** mobile tools
-
-A resident Worker Fabric is being canaried behind explicit feature/account/device gates. Its worker controls are not part of normal 78-tool discovery yet.
-
-See [Tool surface](docs/TOOLS.md).
+The historical 78-tool figure in earlier public documentation described the 0.2.28–0.2.30 public contract; it is **not** a reliable count for today's live MCP discovery. Inspect the current authenticated tool list and the selected device's effective permissions. See [Tool surface](docs/TOOLS.md) for the historical contract and general capability families.
 
 ## Security model
 
