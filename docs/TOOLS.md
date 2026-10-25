@@ -1,5 +1,7 @@
 # MCP tool surface
 
+> **Historical reference.** The 78-tool inventory below records the original 0.2.28 public contract. It is not the authoritative current discovery count for the 0.2.63-beta downloads catalog observed on 2026-10-24. Tool visibility and usable permissions depend on the authenticated client, server catalog, device platform, advertised capabilities and current account/device policy.
+
 The default MapleMCP 0.2.28 public contract exposes **78 tools**.
 
 ## Device discovery — 1
